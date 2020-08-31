@@ -1,0 +1,299 @@
+/*
+PAGE LAYOUT
+*/
+#wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  padding-bottom: 50px;
+  min-height: 100%;
+}
+
+html,
+body {
+  background-color: rgb(230, 233, 230);
+  height: 100%;
+  margin: auto;
+}
+
+/*
+MAIN SECTION ONE
+*/
+main {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.welcome {
+  font-size: 45px;
+}
+
+.firstP {
+  margin: auto;
+  width: 600px;
+  margin-top: 40px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.box-model {
+  display: inline-flex;
+  width: 115px;
+  border: 10px inset green;
+  padding: 60px;
+  margin: 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.border-line-nav {
+  margin-top: 100px;
+  width: 100%;
+  border: 1px solid green;
+}
+
+.border-line {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  border: 1px solid green;
+}
+
+/*
+SECTION TWO
+*/
+.sectionTwo {
+  background-color: rgb(207, 230, 207);
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.h1-services {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.inline-images {
+  display: inline-flex;
+  text-align: center;
+}
+
+.image-house {
+  width: 440px;
+  border-radius: 20px;
+  margin-right: 200px;
+}
+
+.image-carpet {
+  width: 700px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.image-eco {
+  width: 700px;
+  border-radius: 20px;
+  float: right;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.image-commercial {
+  width: 450px;
+  border-radius: 20px;
+}
+
+.carpet-list li {
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0px;
+}
+
+.caption-house {
+  margin-top: 10px;
+  margin-right: 200px;
+  display: block;
+}
+
+.caption-carpet {
+  padding-left: 100px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+.caption-eco {
+  padding-right: 100px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.caption-commercial {
+  margin-top: 10px;
+  display: block;
+}
+
+.text-limit {
+  width: 300px;
+  margin-left: 70px;
+}
+
+/*
+CLEANING ESTIMATE FORM
+*/
+
+.h1-estimate {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.sectionThree {
+  background-color: rgb(207, 230, 207);
+}
+
+form {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form-control-input {
+  width: 400px;
+  height: 25px;
+  text-align: left;
+  padding-left: 4px;
+  border: 1px solid green;
+  background: white;
+}
+
+.distance-from-input {
+  margin-bottom: 4px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+textarea {
+  max-height: 400px;
+  min-height: 200px;
+  max-width: 800px;
+  min-width: 500px;
+}
+
+.btn {
+  background: white;
+  border: 1px solid green;
+  height: 25px;
+  text-align: center;
+}
+
+.root-map {
+  width: 50%;
+}
+.map {
+  padding: 20px;
+  text-align: left;
+  padding: 10px 10px;
+  margin-left: 10%;
+  font-size: 22px;
+}
+
+.map li a {
+  margin: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.map a:hover {
+  border-bottom: 2px solid green;
+  color: green;
+}
+
+/*
+FOOTER
+*/
+.footer {
+  color: white;
+  width: 100%;
+  height: 60px;
+  right: 0;
+  left: 0;
+  margin-bottom: 1;
+  text-align: center;
+  background: rgb(22, 37, 26);
+  font-size: 0.8rem;
+  border-top: 0.5px solid #1fc75f;
+  clear: both;
+}
+
+.copyright {
+  line-height: 50px;
+}
+
+/*
+TABLE
+*/
+
+.table-1 {
+  background: #5baf6b;
+}
+
+table.ecoTable {
+  font-family: Georgia, serif;
+  border: 2px solid #24943a;
+  background-color: #d4eed1;
+  width: 100%;
+  text-align: center;
+}
+table.ecoTable td,
+table.ecoTable th {
+  border: 1px solid #24943a;
+  line-height: 20px;
+  width: 50%;
+  font-weight: bold;
+}
+table.ecoTable tbody td {
+  font-size: 13px;
+}
+table.ecoTable th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #f0f0f0;
+  border-left: 1px solid #24943a;
+}
+table.ecoTable th:first-child {
+  border-left: none;
+}
+
+table.ecoTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #f0f0f0;
+  background: #24943a;
+  background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943a 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #5baf6b 0%,
+    #3a9e4d 66%,
+    #24943a 100%
+  );
+  background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943a 100%);
+  border-top: 1px solid #24943a;
+}
+table.ecoTable tfoot td {
+  font-size: 13px;
+}
+
+table.ecoTable tfoot .links a {
+  display: inline-block;
+  background: #ffffff;
+  color: #24943a;
+  padding: 5px 8px;
+  border-radius: 2px;
+}
